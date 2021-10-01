@@ -1,5 +1,4 @@
-﻿using LanchesMac.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -28,12 +27,6 @@ namespace LanchesMac.Controllers
         public IActionResult Privacy()
         {
             return View("Privacy"); //Chama pelo nome especificado, não pelo nome do método
-        }
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }
