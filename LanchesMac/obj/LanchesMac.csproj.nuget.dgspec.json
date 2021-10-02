@@ -1,25 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DEV01\\Desktop\\MeusProjetosGitHub\\LanchesMac\\LanchesMac\\LanchesMac.csproj": {}
+    "D:\\MeusProjetos\\LanchesMac\\LanchesMac\\LanchesMac.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DEV01\\Desktop\\MeusProjetosGitHub\\LanchesMac\\LanchesMac\\LanchesMac.csproj": {
+    "D:\\MeusProjetos\\LanchesMac\\LanchesMac\\LanchesMac.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DEV01\\Desktop\\MeusProjetosGitHub\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
+        "projectUniqueName": "D:\\MeusProjetos\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
         "projectName": "LanchesMac",
-        "projectPath": "C:\\Users\\DEV01\\Desktop\\MeusProjetosGitHub\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
-        "packagesPath": "C:\\Users\\DEV01\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DEV01\\Desktop\\MeusProjetosGitHub\\LanchesMac\\LanchesMac\\obj\\",
+        "projectPath": "D:\\MeusProjetos\\LanchesMac\\LanchesMac\\LanchesMac.csproj",
+        "packagesPath": "C:\\Users\\Antonidas\\.nuget\\packages\\",
+        "outputPath": "D:\\MeusProjetos\\LanchesMac\\LanchesMac\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\DEV01\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Antonidas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -57,6 +57,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[5.0.2, )"
             }
           },
           "imports": [
@@ -77,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
