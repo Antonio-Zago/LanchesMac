@@ -1,9 +1,10 @@
-﻿@model IEnumerable<LanchesMac.Models.Lanche>
+﻿@using LanchesMac.ViewModels
+@model LancheListViewModel
 
-<div> <h2>Todos os lanches</h2> </div>
+<div> <h2>@Model.CategoriaAtual</h2> </div>
 <div class="row">
 
-    @foreach (var lanche in Model)
+    @foreach (var lanche in Model.Lanches)
     {
 
 
