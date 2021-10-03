@@ -1,7 +1,9 @@
 using LanchesMac.Context;
+using LanchesMac.Models;
 using LanchesMac.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -30,6 +32,10 @@ namespace LanchesMac
 
             services.AddTransient<ICategoriaRepository, CategoriaRepository>();//Serviço criado cada vez que solicitado
             services.AddTransient<ILancheRepository, LancheRepository>();//Toda vez que fazer uma referencia a minha interface ele verifica se foi registrado como serviço, fornecendo uma instancia da implementação
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddSession();
+            services.AddScoped(cp => CarrinhoCompra.GetCarrinho(cp));
+
 
             services.AddControllersWithViews();
 
@@ -52,6 +58,7 @@ namespace LanchesMac
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseSession();
 
             app.UseRouting();
 
