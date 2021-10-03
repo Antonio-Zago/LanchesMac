@@ -217,3 +217,4 @@ D:\MeusProjetos\LanchesMac\LanchesMac\bin\Debug\net5.0\zh-Hant\Microsoft.CodeAna
 D:\MeusProjetos\LanchesMac\LanchesMac\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 D:\MeusProjetos\LanchesMac\LanchesMac\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 D:\MeusProjetos\LanchesMac\LanchesMac\obj\Debug\net5.0\Razor\Views\Lanche\List.cshtml.g.cs
+D:\MeusProjetos\LanchesMac\LanchesMac\obj\Debug\net5.0\Razor\Views\Shared\_LanchesResumo.cshtml.g.cs

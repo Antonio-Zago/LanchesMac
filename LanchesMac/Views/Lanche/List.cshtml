@@ -7,21 +7,10 @@
     @foreach (var lanche in Model.Lanches)
     {
 
+        //@Html.Partial("_LanchesResumo", lanche); //partial view
 
-        <div class="col">
-            <!--4 colunas-->
+        <partial name="_LanchesResumo" for="@lanche"/> //partial view
 
-            <div class="img-thumbnail">
-                <img src="@lanche.ImagemUrl" class="rounded" alt="" />
-            </div>
-
-            <div class="caption">
-                <h3 class="pull-right">Preço: @lanche.Preco.ToString("c")</h3>
-
-                <h3>Lanche: @lanche.Nome</h3>
-                <p>@lanche.DescricaoCurta</p>
-            </div>
-        </div>
     }
 
 </div>
